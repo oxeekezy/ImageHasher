@@ -1,0 +1,24 @@
+{
+    "name": "oxeek/hashmachine",
+    "description": "Tool for text transliteration by replacement relations.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikita Kukin",
+            "email": "workkukin@gmail.com",
+            "homepage": "https://vk.com/oxeek",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "HashMachine\\": "source"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-gd": "*"
+    }
+}
